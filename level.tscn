@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://3csir7l8gc0h"]
+
+[ext_resource type="PackedScene" uid="uid://bche7ggg1kv2q" path="res://menus.tscn" id="1_u52ul"]
+[ext_resource type="PackedScene" uid="uid://sm62jyuxfra" path="res://ui.tscn" id="2_vonw3"]
+[ext_resource type="Texture2D" uid="uid://2yu5gec5nlew" path="res://Screenshot 2025-10-11 182121.png" id="3_oi3di"]
+[ext_resource type="PackedScene" uid="uid://btohas1wyiu2" path="res://player.tscn" id="4_0b4ue"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Menus" parent="." instance=ExtResource("1_u52ul")]
+
+[node name="UI" parent="." instance=ExtResource("2_vonw3")]
+
+[node name="Background" type="Sprite2D" parent="."]
+z_index = -99
+position = Vector2(714, 87)
+scale = Vector2(4, 4)
+texture = ExtResource("3_oi3di")
+
+[node name="Player" parent="." instance=ExtResource("4_0b4ue")]
