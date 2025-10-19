@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://bgx2g11ruoflx"]
+
+[ext_resource type="Texture2D" uid="uid://dobex1iw4hwov" path="res://art/invitation.png" id="1_225fb"]
+[ext_resource type="Script" uid="uid://cibvt2pkg82ma" path="res://evidence.gd" id="2_p1iy4"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_p1iy4"]
+radius = 76.105194
+
+[node name="Evidence" type="Sprite2D" groups=["evidence"]]
+texture = ExtResource("1_225fb")
+script = ExtResource("2_p1iy4")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_p1iy4")

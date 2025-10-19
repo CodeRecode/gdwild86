@@ -1,9 +1,13 @@
-[gd_scene format=3 uid="uid://bche7ggg1kv2q"]
+[gd_scene load_steps=3 format=3 uid="uid://bche7ggg1kv2q"]
+
+[ext_resource type="Script" uid="uid://dau43ab1q2180" path="res://ui/menus.gd" id="1_en8h8"]
+[ext_resource type="Theme" uid="uid://c0i5xgm4tqjan" path="res://ui/blue_theme.tres" id="1_ljot1"]
 
 [node name="Menus" type="CanvasLayer"]
+process_mode = 3
+script = ExtResource("1_en8h8")
 
 [node name="MainMenu" type="PanelContainer" parent="."]
-visible = false
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -15,6 +19,7 @@ offset_right = 20.0
 offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_ljot1")
 
 [node name="MarginContainer" type="MarginContainer" parent="MainMenu"]
 layout_mode = 2
@@ -32,22 +37,22 @@ layout_mode = 2
 [node name="Label" type="Label" parent="MainMenu/MarginContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "Title"
+text = "Murder Mystery Masqurade"
 horizontal_alignment = 1
 
 [node name="Control" type="Control" parent="MainMenu/MarginContainer/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 
-[node name="Button" type="Button" parent="MainMenu/MarginContainer/HBoxContainer/VBoxContainer"]
+[node name="StartButton" type="Button" parent="MainMenu/MarginContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
 text = "Start"
 
-[node name="Button2" type="Button" parent="MainMenu/MarginContainer/HBoxContainer/VBoxContainer"]
+[node name="SettingsButton" type="Button" parent="MainMenu/MarginContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
 text = "Settings"
 
-[node name="Button3" type="Button" parent="MainMenu/MarginContainer/HBoxContainer/VBoxContainer"]
+[node name="CreditsButton" type="Button" parent="MainMenu/MarginContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
 text = "Credits"
 
@@ -68,6 +73,7 @@ offset_right = 20.0
 offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_ljot1")
 
 [node name="MarginContainer" type="MarginContainer" parent="SettingsMenu"]
 layout_mode = 2
@@ -99,7 +105,7 @@ layout_mode = 2
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 
-[node name="Button3" type="Button" parent="SettingsMenu/MarginContainer/HBoxContainer/VBoxContainer"]
+[node name="SettingsReturnButton" type="Button" parent="SettingsMenu/MarginContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
 text = "Return"
 
@@ -116,6 +122,7 @@ offset_right = 20.0
 offset_bottom = 20.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("1_ljot1")
 
 [node name="MarginContainer" type="MarginContainer" parent="CreditsMenu"]
 layout_mode = 2
@@ -147,6 +154,30 @@ layout_mode = 2
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 
-[node name="Button3" type="Button" parent="CreditsMenu/MarginContainer/HBoxContainer/VBoxContainer"]
+[node name="Label" type="Label" parent="CreditsMenu/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "A game by Davideogame"
+
+[node name="Control2" type="Control" parent="CreditsMenu/MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="Label2" type="Label" parent="CreditsMenu/MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(10, 10)
+layout_mode = 2
+text = "night shift 1x78 by Setuniman -- https://freesound.org/s/822301/ -- License: Attribution NonCommercial 4.0"
+autowrap_mode = 2
+
+[node name="Control3" type="Control" parent="CreditsMenu/MarginContainer/HBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="CreditsReturnButton" type="Button" parent="CreditsMenu/MarginContainer/HBoxContainer/VBoxContainer"]
 layout_mode = 2
 text = "Return"
+
+[connection signal="pressed" from="MainMenu/MarginContainer/HBoxContainer/VBoxContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="MainMenu/MarginContainer/HBoxContainer/VBoxContainer/SettingsButton" to="." method="_on_settings_button_pressed"]
+[connection signal="pressed" from="MainMenu/MarginContainer/HBoxContainer/VBoxContainer/CreditsButton" to="." method="_on_credits_button_pressed"]
+[connection signal="pressed" from="SettingsMenu/MarginContainer/HBoxContainer/VBoxContainer/SettingsReturnButton" to="." method="_on_settings_return_button_pressed"]
+[connection signal="pressed" from="CreditsMenu/MarginContainer/HBoxContainer/VBoxContainer/CreditsReturnButton" to="." method="_on_credits_return_button_pressed"]

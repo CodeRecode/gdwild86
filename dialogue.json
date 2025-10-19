@@ -1,0 +1,208 @@
+{
+	"white_intro1": 
+		[
+			"Hello, detective, I am Frank White. Or more accurately, his digital ghost. I'm able to speak to you now thanks to Whitestone technology.",
+			"ICBI regulations require that you find the perpetrator and any accomplices before suspects can be released. But I'm sure I don't need to tell you how to do your job.",
+			"Please take care when questioning the suspects, one of them is sure to become the new CEO of Whitestone. We wouldn't want our future relationship with ICBI soured, would we?"
+		],
+	"white_intro":
+		[
+			"Hello again detective.",
+		],
+	"white_happened":
+		[
+			"I'm not aware of events that occurred since my last synchronization, last night.",
+		],
+	"white_alibi":
+		[
+			"I'm not aware of events that occurred since my last synchronization, last night.",
+		],
+	"white_occupation":
+		[
+			"I was the CEO and chairman of Whitestone Technologies."
+		],
+	"white_blackmail":
+		[
+			"Hmm. I don't recognize this. I presume it was given to me today if it was found on my body.",
+			"Please don't show this to Mrs. Red, I believe it would be quite upsetting for my wife.",
+		],
+	"white_invitation":
+		[
+			"Yes. That's the invite I sent out. Ms. Blue designed it herself.",
+		],
+	"white_report":
+		[
+			"Ah, this. Mr. Black compiled it and gave it to Mrs. Red and myself. We were going to build a case to fire him after the party."
+		],
+	"body_intro":
+		[
+			"*The body of Mr. White lays on the floor. A fracture on the back of his head and pooled blood leaves little mystery as to how he died.*",
+			"*You find a note crumpled in his hand.*",
+		],
+	"black_intro":
+		[
+			"What would you like to know?"
+		],
+	"black_happened":
+		[
+			"I was in the bonus room at the time when I heard a thud, so I stood up to investigate.",
+			"I saw Mrs. Green come out of the master bedroom and then head down the hallway into the room on the left.",
+			"I peeked into the bedroom, saw Mr. White on the floor, then called the emergency line."
+		],
+	"black_alibi":
+		[
+			"I was in the bonus room with Miss Blue. Having a...",
+			"discussion."
+		],
+	"black_occupation":
+		[
+			"I was a VP at Whitestone until recently, though I was recently promoted to COO following an internal investigation."
+		],
+	"black_suspicions":
+		[
+			"I wouldn't have pegged her for murder, but Mrs. Green was in contention for the COO position. Maybe she took it poorly?"
+		],
+	"black_invitation":
+		[
+			"What's that? Why are you showing me a green card? Oh, the invite. Right.",
+		],
+	"black_blackmail":
+		[
+			"Mr. White had his faults, as do we all.",
+		],
+	"black_report":
+		[
+			"That's the report I gave Mr. White and Mrs. Red."
+		],
+	"blue_intro":
+		[
+			"Hi there."
+		],
+	"blue_happened":
+		[
+			"Mr. Black and I were here in the bonus room having some fun and then he mentioned hearing something and stood up.",
+			"Figured he was getting cold feet but turns out he did actually hear something."
+		],
+	"blue_alibi":
+		[
+			"Like I said, I was with Mr. Black, here."
+		],
+	"blue_occupation":
+		[
+			"I'm Mr. White's secretary. Well, was."
+		],
+	"blue_suspicions":
+		[
+			"Mr. Yellow's been cagey all evening. He's always been kinda weaselly but now he looks like the cat's after him."
+		],
+	"blue_invitation":
+		[
+			"I made those you know. Contrasting colors are very in right now, despite what Mr. Black thinks.",
+		],
+	"blue_blackmail":
+		[
+			"Affairs and blackmail? How deliciously scandalous.",
+		],
+	"blue_report":
+		[
+			"That's above my head, fortunately.",
+		],
+	"green_intro":
+		[
+			"Hello Detective. How can I help?"
+		],
+	"green_happened":
+		[
+			"The servants left after serving dinner and it was the six of us left. I think something in the meal disagreed with me so I've been visiting the restroom most of the evening.",
+			"Otherwise I've been here on the couch, trying not to think about it."
+		],
+	"green_alibi":
+		[
+			"I was laying down here in the living room, alone."
+		],
+	"green_occupation":
+		[
+			"I'm a VP with Whitestone. Research and Development, but I'm afraid I can't say more than that."
+		],
+	"green_suspicions":
+		[
+			"Mr. White has many enemies, but he wouldn't have been foolish enough to invite them to a masquerade."
+		],
+	"green_invitation":
+		[
+			"Yes that's the invite. Why we're all here right now.",
+		],
+	"green_blackmail":
+		[
+			"For the sake of Mr. White, you probably shouldn't show that to anyone else.",
+		],
+	"green_report":
+		[
+			"I'm not exactly surprised.",
+		],
+	"yellow_intro":
+		[
+			"Yeah?"
+		],
+	"yellow_happened":
+		[
+			"Got here, had dinner, had some wine. Beyond that, I really can't speculate on what happened."
+		],
+	"yellow_alibi":
+		[
+			"I was having a glass of wine with Mrs. Red in the Study."
+		],
+	"yellow_occupation":
+		[
+			"I'm the CFO."
+		],
+	"yellow_suspicions":
+		[
+			"Dunno. Isn't that your job?"
+		],
+	"yellow_invitation":
+		[
+			"Don't have anything to say about that.",
+		],
+	"yellow_blackmail":
+		[
+			"Don't have anything to say about that.",
+		],
+	"yellow_report":
+		[
+			"The fuck? Why do you have that? That bitch! She said she'd bury it!"
+		],
+	"red_intro":
+		[
+			"Hello detective, thank you so much for coming."
+		],
+	"red_happened":
+		[
+			"We'd all settled down after dinner and were relaxing when we heard some noises, but I never would have suspected it was something like this.",
+			"We heard Mr. Black call for help, and decided it was best to stay where we were. And now here we are."
+		],
+	"red_alibi":
+		[
+			"Mr. Yellow and I were having a delightful conversation in the study over a glass of wine."
+		],
+	"red_occupation":
+		[
+			"I am VP of Human Resources at Whitestone."
+		],
+	"red_suspicions":
+		[
+			"Mr. Black was the one to find the body, yes? He is the next in line for the CEO position as COO, maybe he was a little eagar?"
+		],
+	"red_invitation":
+		[
+			"Ah, the invitation. A most unfortunate thing in hindsight.",
+		],
+	"red_blackmail":
+		[
+			"I'm afraid I don't know anything about that.",
+		],
+	"red_report":
+		[
+			"Ah, yes, I'm surprised this is here. It's a sensitive internal matter so I ask you don't show it around."
+		],
+}

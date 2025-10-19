@@ -1,0 +1,38 @@
+{
+	"white": { 
+		"alias": "Mr. White",
+		"occupation": "CEO",
+		"alibi": "N/A",
+	},
+	"green": { 
+		"alias": "Mrs. Green",
+		"occupation": "VP in R&D",
+		"alibi": "In living room (unsubstantiated)",
+		"statement_suspicion": "Mr. White likely didn't consider any of his guests his enemy",
+	},
+	"black": { 
+		"alias": "Mr. Black",
+		"occupation": "COO",
+		"alibi": "In bonus room (with Ms. Blue)",
+		"statement_happened": "Heard a noise from the master bedroom, then saw Mrs. Green head down hall into study",
+		"statement_suspicion": "Mrs. Green might be resentful about not getting the COO position",
+	},
+	"red": { 
+		"alias": "Mrs. Red",
+		"occupation": "VP in HR",
+		"alibi": "In study (with Mr. Yellow)",
+		"statement_happened": "Heard a noise from the master bedroom",
+		"statement_suspicion": "Mr. Black might have wanted the CEO position",
+	},
+	"yellow": { 
+		"alias": "Mr. Yellow",
+		"occupation": "CFO",
+		"alibi": "In study (with Mrs. Red)",
+	},
+	"blue": { 
+		"alias": "Ms. Blue",
+		"occupation": "Secretary",
+		"alibi": "In bonus room (with Mr. Black)",
+		"statement_suspicion": "Mr. Yellow was acting out of the ordinary",
+	},
+}
